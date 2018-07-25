@@ -1,6 +1,5 @@
-
 echo "##### install gpg #####"
-GPGV="1.4.23";
+GPGV="2.2.9"; # see for new versions: https://gnupg.org/ftp/gcrypt/gnupg
 
 echo "download v"$GPGV
 wget https://gnupg.org/ftp/gcrypt/gnupg/gnupg-$GPGV.tar.bz2 -O ./gpg-$GPGV.tar.bz2;

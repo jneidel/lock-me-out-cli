@@ -17,6 +17,7 @@ Commands
   encrypt, en Encrypt value
   decrypt, de Decrypt value
   list, ls    List encrypted values
+  setup       Setup ~/.config dir
 
 Options
   --name, -n  Name to identify the encrypted value

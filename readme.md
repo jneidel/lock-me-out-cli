@@ -47,6 +47,7 @@ $ lmo --help
     encrypt, en Encrypt value
     decrypt, de Decrypt value
     list, ls    List encrypted values
+    setup       Setup ~/.config dir
 
   Options
     --name, -n  Name to identify the encrypted value
@@ -85,6 +86,14 @@ For specifying dates/times you have multiple options:
 - `HH:MM`/`HH`- 12:55, 12
 
 The date can not be omitted: `--date "today +2"` not `--date "+2"`.
+
+## Reset
+
+To reset config, data, gpg keys, etc.:
+
+```zsh
+$ rm -rf ~/.config/lock-me-out; lmo setup;
+```
 
 <!--## Commands
 

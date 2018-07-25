@@ -1,6 +1,6 @@
 {
   "name": "lock-me-out-cli",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Temporarily lock yourself out, by encrypting e.g. your netflix password for a week",
   "repository": "jneidel/lock-me-out-cli",
   "license": "MIT",

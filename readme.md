@@ -3,6 +3,7 @@
 > Temporarily lock yourself out, by encrypting e.g. your netflix password for a week
 
 [![Travis Build Status](https://img.shields.io/travis/jneidel/lock-me-out-cli.svg?style=flat-square)](https://travis-ci.org/jneidel/lock-me-out-cli)
+![User tested gnu/linux](https://img.shields.io/badge/user_tested-GNU%2FLinux-brightgreen.svg?style=flat-square)
 [![Npm Downloads](https://img.shields.io/npm/dw/lock-me-out-cli.svg?style=flat-square)](https://www.npmjs.com/package/lock-me-out-cli)
 [![License MIT](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](https://github.com/jneidel/lock-me-out-cli/blob/master/license)
 [![Code Style Custom](https://img.shields.io/badge/code%20style-custom-ff69b4.svg?style=flat-square)](https://github.com/jneidel/dotfiles/blob/master/.eslintrc)

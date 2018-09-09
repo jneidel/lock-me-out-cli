@@ -45,19 +45,19 @@ $ lmo --help
     $ lmo <command> <options>
 
   Commands
-    encrypt, en Encrypt value
-    decrypt, de Decrypt value
-    list, ls    List encrypted values
-    setup       Setup ~/.config dir
+    en, encrypt Encrypt value
+    de, decrypt Decrypt value
+    ls, list    List encrypted values
+        setup   Setup ~/.config dir
 
   Options
-    --name, -n  Name to identify the encrypted value
-    --date, -d  When the data will be decryptable
-    --value, -v Data to be encrypted
+    -n, --name  Name to identify the encrypted value
+    -d, --date  When the data will be decryptable
+    -v, --value Data to be encrypted
 
   Examples
-    $ lmo encrypt -s netflix -d "tomorrow 9" -v mypassword
-    $ lmo encrypt -s youtube -d nextweek -v yt123
+    $ lmo encrypt -n netflix -d "tomorrow 9" -v mypassword
+    $ lmo encrypt -n youtube -d nextweek -v yt123
 
     $ lmo decrypt netflix
 

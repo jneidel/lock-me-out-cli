@@ -28,16 +28,10 @@
   },
   "dependencies": {
     "chalk": "^2.4.1",
-    "dayjs": "^1.7.4",
-    "expand-home-dir": "0.0.3",
     "inquirer": "6.0.0",
+    "lock-me-out-api": "file:../lock-me-out-api",
     "log-update": "^2.3.0",
-    "make-dir": "^1.3.0",
     "meow": "^5.0.0",
-    "mz": "^2.7.0",
-    "path-exists": "^3.0.0",
-    "py-range": "^1.0.0",
-    "slugify": "^1.3.0",
     "update-check": "^1.5.2"
   },
   "devDependencies": {

@@ -27,13 +27,13 @@
     "node": ">=8"
   },
   "dependencies": {
-    "chalk": "^2.4.1",
-    "dayjs": "^1.8.0",
-    "inquirer": "6.0.0",
-    "lock-me-out-api": "^0.1.0",
-    "log-update": "^2.3.0",
+    "chalk": "^2.4.2",
+    "dayjs": "^1.8.10",
+    "inquirer": "6.2.2",
+    "lock-me-out-api": "file:../lock-me-out-api",
+    "log-update": "^3.1.0",
     "meow": "^5.0.0",
-    "update-check": "^1.5.2"
+    "update-check": "^1.5.3"
   },
   "devDependencies": {
     "ava": "latest",
